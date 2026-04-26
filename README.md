@@ -12,7 +12,10 @@ en deux volumes (condensé en 2 vol. de l'*Encyclopédie* originale en
 
 ## État du projet
 
-🚧 **Pré-production** — squelette initialisé, traduction non commencée.
+🚧 **Lot pilote v0.1** — pages liminaires + 21 premières entrées du cadre théorique traduites.
+
+🌐 **Lecture en ligne** : https://abourdim.github.io/mawsoua-moujaza/lecture_fr.html
+📂 **GitHub** : https://github.com/abourdim/mawsoua-moujaza
 
 | | Vol 1 | Vol 2 | Total |
 |---|---:|---:|---:|

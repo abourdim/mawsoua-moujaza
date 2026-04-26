@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>L'Encyclopédie abrégée — Lecture en français · al-Massiri</title>
+<meta name="description" content="Traduction française intégrale et fidèle de l'Encyclopédie abrégée des Juifs, du Judaïsme et du Sionisme d'Abdelwahhab al-Massiri.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#fbfaf7; --paper:#fff; --side:#f4efe3; --side-2:#ebe4d2;
+    --hl:#e6dcc1; --ink:#1a1612; --ink-2:#534839; --muted:#8b7d68;
+    --rule:#d4cab4; --accent:#7a3a1f; --accent-2:#a04a26;
+    --gold:#a87f2a; --shadow:0 2px 14px rgba(44,36,23,.07);
+    --serif:"Cormorant Garamond","Iowan Old Style","Cardo",Georgia,serif;
+    --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    --arab:"Amiri","Scheherazade New","Geeza Pro",serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{font-family:var(--sans);background:var(--bg);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased;display:flex;flex-direction:column}
+  header.bar{flex:0 0 auto;display:flex;align-items:center;gap:18px;padding:14px 24px;background:var(--paper);border-bottom:1px solid var(--rule);box-shadow:var(--shadow)}
+  header.bar .brand{flex:1;min-width:0}
+  header.bar .brand .t{font-family:var(--serif);font-size:1.35rem;font-weight:600;color:var(--accent);line-height:1.1}
+  header.bar .brand .s{display:block;margin-top:3px;font-size:.72rem;font-style:italic;color:var(--muted)}
+  header.bar .toolbar{display:flex;gap:8px;flex-wrap:wrap}
+  header.bar a.btn{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:20px;border:1px solid var(--rule);background:var(--paper);font-family:var(--sans);font-size:.78rem;font-weight:500;color:var(--ink-2);cursor:pointer;text-decoration:none;white-space:nowrap;transition:.2s}
+  header.bar a.btn:hover{background:var(--hl);border-color:var(--gold);color:var(--accent);transform:translateY(-1px);box-shadow:var(--shadow)}
+  header.bar .menu-btn{display:none}
+  .wrap{flex:1;display:flex;min-height:0}
+  aside.toc{flex:0 0 340px;background:linear-gradient(to bottom,var(--side),var(--side-2));border-right:1px solid var(--rule);overflow-y:auto;padding:8px 0 24px}
+  aside.toc::-webkit-scrollbar{width:10px}
+  aside.toc::-webkit-scrollbar-thumb{background:rgba(168,127,42,.25);border-radius:5px}
+  aside.toc .group{font-family:var(--sans);font-size:.62rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);padding:22px 24px 8px;display:flex;align-items:center;gap:10px}
+  aside.toc .group::before{content:'';flex:0 0 18px;height:1px;background:var(--gold);opacity:.5}
+  aside.toc .group::after{content:'';flex:1;height:1px;background:var(--gold);opacity:.25}
+  aside.toc .group:first-child{padding-top:14px}
+  aside.toc a.doc{display:flex;align-items:flex-start;gap:14px;padding:13px 22px 13px 16px;text-decoration:none;color:var(--ink);border-left:3px solid transparent;transition:.2s;cursor:pointer}
+  aside.toc a.doc:hover{background:rgba(255,255,255,.5)}
+  aside.toc a.doc.active{background:var(--paper);border-left-color:var(--accent);box-shadow:inset -1px 0 0 var(--rule),0 1px 0 var(--rule),0 -1px 0 var(--rule)}
+  aside.toc a.doc .num{flex:0 0 32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:var(--paper);border:1px solid var(--rule);font-family:var(--serif);font-size:.92rem;font-weight:600;color:var(--accent);line-height:1;margin-top:1px;transition:.2s}
+  aside.toc a.doc.active .num{background:var(--accent);color:#fff;border-color:var(--accent)}
+  aside.toc a.doc .body{flex:1;min-width:0}
+  aside.toc a.doc .fr{display:block;font-family:var(--serif);font-size:1.05rem;font-weight:500;color:var(--ink);line-height:1.25}
+  aside.toc a.doc.active .fr{color:var(--accent);font-weight:600}
+  aside.toc a.doc .ar{display:block;font-family:var(--arab);font-size:.92rem;color:var(--gold);direction:rtl;margin-top:4px;line-height:1.45;opacity:.85}
+  aside.toc a.doc.active .ar{color:var(--accent);opacity:1}
+  aside.toc .stub{padding:13px 22px 13px 16px;color:var(--muted);font-size:.85rem;font-style:italic}
+  aside.toc .ext{margin:24px 22px 0;padding-top:18px;border-top:1px dashed var(--rule)}
+  aside.toc .ext .lab{font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;margin-bottom:10px;color:var(--gold);font-weight:600}
+  aside.toc .ext a{display:flex;align-items:center;gap:8px;color:var(--ink-2);text-decoration:none;padding:7px 8px;margin:0 -8px;border-radius:6px;font-size:.8rem;transition:.15s}
+  aside.toc .ext a:hover{background:rgba(255,255,255,.6);color:var(--accent)}
+  aside.toc .ext a .ico{font-size:.95rem;opacity:.8}
+  main.view{flex:1;display:flex;flex-direction:column;min-width:0;background:#dcd5c2}
+  iframe{flex:1;border:0;width:100%;background:#fff}
+  .welcome{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:50px 30px;background:var(--bg);text-align:center;overflow-y:auto}
+  .welcome .orn{font-size:1.6rem;color:var(--gold);opacity:.55;margin-bottom:18px;letter-spacing:.5em}
+  .welcome h2{font-family:var(--serif);font-size:clamp(1.8rem,3.6vw,2.6rem);font-weight:600;color:var(--accent);margin-bottom:8px;line-height:1.15}
+  .welcome .ar{font-family:var(--arab);font-size:1.55rem;color:var(--gold);direction:rtl;margin-bottom:24px;font-weight:400}
+  .welcome p{max-width:62ch;margin:10px auto;color:var(--ink-2);font-size:.96rem;line-height:1.7}
+  .welcome .stats{display:flex;gap:0;margin:32px 0 22px;flex-wrap:wrap;justify-content:center;background:var(--paper);border-radius:14px;padding:6px;box-shadow:var(--shadow);border:1px solid var(--rule)}
+  .welcome .stat{text-align:center;padding:14px 24px;border-right:1px solid var(--rule)}
+  .welcome .stat:last-child{border-right:0}
+  .welcome .stat .n{font-family:var(--serif);font-size:1.9rem;color:var(--accent);font-weight:600;line-height:1}
+  .welcome .stat .l{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:6px;font-weight:600}
+  .welcome .pilot{display:inline-block;background:#fff3cf;color:#856404;padding:6px 14px;border-radius:14px;font-size:.78rem;font-weight:600;margin-bottom:18px;border:1px solid #f0d878}
+  .welcome .note{margin-top:30px;padding:14px 22px;max-width:56ch;background:rgba(168,127,42,.08);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;font-size:.82rem;color:var(--ink-2);line-height:1.6;font-style:italic;text-align:left}
+  @media (max-width:780px){
+    header.bar{padding:10px 14px;gap:10px}
+    header.bar .brand .s{display:none}
+    header.bar .menu-btn{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;border:1px solid var(--rule);background:var(--paper);font-size:1.2rem;cursor:pointer;flex:0 0 38px}
+    aside.toc{position:fixed;left:0;top:0;bottom:0;width:88%;max-width:340px;z-index:50;transform:translateX(-100%);transition:transform .25s;box-shadow:6px 0 24px rgba(0,0,0,.25);padding-top:60px}
+    aside.toc.open{transform:translateX(0)}
+    .scrim{position:fixed;inset:0;background:rgba(20,16,10,.55);backdrop-filter:blur(2px);z-index:40;opacity:0;pointer-events:none;transition:opacity .25s}
+    .scrim.show{opacity:1;pointer-events:auto}
+  }
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <button class="menu-btn" id="menuBtn" aria-label="Sommaire">☰</button>
+  <div class="brand">
+    <div class="t">L'Encyclopédie abrégée</div>
+    <span class="s">Mawsūʿa Mūjaza · Abdelwahhab al-Massiri (1938–2008)</span>
+  </div>
+  <div class="toolbar">
+    <a class="btn" href="references/vol1.pdf" target="_blank" rel="noopener" title="Volume I arabe original (32 Mo)">📕 Vol I AR</a>
+    <a class="btn" href="references/vol2.pdf" target="_blank" rel="noopener" title="Volume II arabe original (33 Mo)">📕 Vol II AR</a>
+    <a class="btn" href="https://github.com/abourdim/mawsoua-moujaza" target="_blank" rel="noopener">⌥ GitHub</a>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="scrim" id="scrim"></div>
+  <aside class="toc" id="toc">
+
+    <div class="group">Lot pilote v0.1 · Volume I</div>
+
+    <a class="doc" data-src="traduction_fr/00_front_matter_fr.html">
+      <span class="num">0</span>
+      <div class="body">
+        <span class="fr">Pages liminaires</span>
+        <span class="ar">الصفحات التمهيدية</span>
+      </div>
+    </a>
+
+    <a class="doc" data-src="traduction_fr/01_cadre_theorique_fr.html">
+      <span class="num">I</span>
+      <div class="body">
+        <span class="fr">Cadre théorique (21 premières entrées)</span>
+        <span class="ar">الإطار النظري — أول 21 مدخلًا</span>
+      </div>
+    </a>
+
+    <div class="group">À traduire — Vol I</div>
+    <div class="stub">Suite du cadre théorique (entrées 22–50+)</div>
+    <div class="stub">Partie I · Problématiques sur les communautés juives</div>
+    <div class="stub">Partie II · Cultures des communautés juives</div>
+    <div class="stub">Partie III · Histoires des communautés juives</div>
+
+    <div class="group">À traduire — Vol II</div>
+    <div class="stub">Partie I · Le judaïsme — concepts et écoles</div>
+    <div class="stub">Partie II · Le sionisme</div>
+    <div class="stub">Partie III · Israël</div>
+
+    <div class="ext">
+      <div class="lab">Ressources</div>
+      <a href="references/vol1.pdf" target="_blank" rel="noopener">
+        <span class="ico">📕</span> Volume I arabe (32 Mo)
+      </a>
+      <a href="references/vol2.pdf" target="_blank" rel="noopener">
+        <span class="ico">📕</span> Volume II arabe (33 Mo)
+      </a>
+      <a href="https://archive.org/details/Almissiri_Abdel_wahab" target="_blank" rel="noopener">
+        <span class="ico">🔗</span> archive.org — œuvres complètes
+      </a>
+      <a href="https://abourdim.github.io/rihlati-fikriyah/" target="_blank" rel="noopener">
+        <span class="ico">📖</span> Rihlati al-Fikriyah (autre projet)
+      </a>
+      <a href="https://github.com/abourdim/mawsoua-moujaza" target="_blank" rel="noopener">
+        <span class="ico">⌥</span> Code source (GitHub)
+      </a>
+    </div>
+  </aside>
+
+  <main class="view" id="view">
+    <div class="welcome">
+      <span class="pilot">🚧 LOT PILOTE v0.1 — TRADUCTION EN COURS</span>
+      <div class="orn">❦ ❦ ❦</div>
+      <h2>L'Encyclopédie abrégée</h2>
+      <div class="ar">موسوعة اليهود واليهودية والصهيونية — الموجزة</div>
+      <p>
+        Traduction française <strong>intégrale et fidèle</strong> de l'<em>Encyclopédie abrégée des Juifs,
+        du Judaïsme et du Sionisme</em> (2 volumes) de <strong>Dr Abdelwahhab al-Massiri</strong> (1938–2008),
+        publiée par Dar al-Shorouk.
+      </p>
+      <p>
+        Ce repo héberge la traduction française par lots. Le <strong>lot pilote v0.1</strong>
+        couvre les pages liminaires (dédicace, avant-propos) et les
+        <strong>21 premières entrées du cadre théorique</strong> qui ouvrent le Volume I —
+        ce sont les concepts signature d'al-Massiri (modèle perceptif, déconstruction,
+        nature/matière, immanentisme, instrumentalisation, sécularisation totale, etc.).
+      </p>
+      <div class="stats">
+        <div class="stat"><div class="n">~651 k</div><div class="l">Mots arabes</div></div>
+        <div class="stat"><div class="n">~910 k</div><div class="l">Mots français cible</div></div>
+        <div class="stat"><div class="n">2</div><div class="l">Volumes</div></div>
+        <div class="stat"><div class="n">~1 500</div><div class="l">Pages arabes</div></div>
+      </div>
+      <p class="note">
+        Sélectionnez un document dans la barre latérale pour commencer.
+        La traduction est en cours par lots — les sections grisées seront ajoutées progressivement.
+        <br><br>
+        Pour usage personnel — al-Massiri ﷭. Voir le projet jumeau déjà achevé :
+        <a href="https://abourdim.github.io/rihlati-fikriyah/" target="_blank" rel="noopener" style="color:var(--accent)">Rihlati al-Fikriyah</a>
+        (autobiographie intellectuelle, 10 chapitres, traduite en intégralité).
+      </p>
+    </div>
+  </main>
+</div>
+
+<script>
+(function(){
+  const view = document.getElementById('view');
+  const links = Array.from(document.querySelectorAll('aside.toc a.doc'));
+  const toc = document.getElementById('toc');
+  const scrim = document.getElementById('scrim');
+  const menuBtn = document.getElementById('menuBtn');
+  function load(src, link){
+    view.innerHTML = `<iframe src="${src}" title="Document"></iframe>`;
+    links.forEach(a => a.classList.toggle('active', a === link));
+    toc.classList.remove('open'); scrim.classList.remove('show');
+  }
+  links.forEach(a => a.addEventListener('click', e => {
+    e.preventDefault(); load(a.dataset.src, a);
+    history.replaceState(null,'',`#${encodeURIComponent(a.dataset.src)}`);
+  }));
+  menuBtn.addEventListener('click', () => { toc.classList.add('open'); scrim.classList.add('show'); });
+  scrim.addEventListener('click', () => { toc.classList.remove('open'); scrim.classList.remove('show'); });
+  // hash deeplink
+  if (location.hash){
+    const src = decodeURIComponent(location.hash.slice(1));
+    const link = links.find(a => a.dataset.src === src);
+    if (link) load(src, link);
+  }
+})();
+</script>
+</body>
+</html>
