@@ -1,0 +1,1205 @@
+{
+  "meta": {
+    "slug": "mawsoua-vol2",
+    "ar_title": "الموسوعة الموجزة — المجلد الثاني",
+    "fr_title": "Encyclopédie abrégée — Vol. II",
+    "translit": "al-Mawsūʿa al-mūjaza · Vol II",
+    "subtitle_fr": "La somme massirienne",
+    "author": "ʿAbd al-Wahhāb al-Massīrī",
+    "dates": "1938–2008",
+    "pages": 2193,
+    "lots": 289,
+    "tag_git": "TAG-V0.289-VOL2-COMPLETE-8020",
+    "book_dir": "56-mawsoua-moujaza",
+    "file_root": "56_mawsoua_moujaza_vol2",
+    "read": [
+      {
+        "label": "📖 Vol II — unifié",
+        "href": "mawsoua-moujaza-vol2_fr_unified.pdf"
+      },
+      {
+        "label": "🗂 Vol II — fusionné",
+        "href": "mawsoua-moujaza-vol2_fr_merged.pdf"
+      },
+      {
+        "label": "📖 Vol I — unifié",
+        "href": "mawsoua-moujaza-vol1_fr_unified.pdf"
+      },
+      {
+        "label": "🗂 Vol I — fusionné",
+        "href": "mawsoua-moujaza-vol1_fr_merged.pdf"
+      }
+    ]
+  },
+  "metaphor": [
+    {
+      "icon": "🧭",
+      "ar": "النموذج التفسيري",
+      "en": "The interpretive model",
+      "fr": "Le modèle interprétatif",
+      "desc": "Une grille d'intelligibilité qui descend dans le réel : ni théorie planante, ni description plate. Saisir le judaïsme, le sionisme et l'Occident depuis leurs structures latentes."
+    },
+    {
+      "icon": "⛏",
+      "ar": "التركيب الجيولوجي التراكمي",
+      "en": "Cumulative geological layering",
+      "fr": "Le tassement géologique cumulatif",
+      "desc": "Le judaïsme comme empilement de strates indépendantes — monothéiste, immanentiste, talmudique, cabalistique, sioniste — qui coexistent sans s'unifier. La métaphore-clé du Vol II."
+    },
+    {
+      "icon": "🛠",
+      "ar": "الجماعة الوظيفية",
+      "en": "The functional community",
+      "fr": "La communauté fonctionnelle",
+      "desc": "Outil sociologique central : un groupe importé pour remplir une fonction (commerce, administration, peuplement) hors du tissu organique de la société. Clef de lecture de la judéité européenne et du colon sioniste."
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch01",
+      "part": "Partie I — Judaïsme",
+      "icon": "📜",
+      "ar": {
+        "t": "اليهودية كتركيب جيولوجي تراكمي",
+        "d": "اليهودية ليست متجانسة، بل طبقات متراكمة لا تنحلّ إلى وحدة."
+      },
+      "en": null,
+      "fr": {
+        "t": "Le judaïsme comme tassement géologique cumulatif",
+        "d": "Strates contradictoires de la doctrine juive : monothéisme, immanentisme, Talmud, Cabale, sionisme — coexistantes sans synthèse."
+      },
+      "excerpt": "اليهودية تشبه التركيب الجيولوجي من طبقات مستقلة، لا الإطار التوحيدي الجامع.",
+      "tr": {
+        "en": null,
+        "fr": "Le judaïsme ressemble à un tassement géologique de strates indépendantes, et non à un cadre monothéiste unitaire."
+      },
+      "tags": [
+        "tarākum",
+        "Talmud",
+        "Cabale",
+        "monothéisme"
+      ],
+      "tags_fr": [
+        "accumulation",
+        "Talmud",
+        "Cabale",
+        "monothéisme"
+      ],
+      "tags_en": null
+    },
+    {
+      "id": "ch02",
+      "part": "Partie I — Judaïsme",
+      "icon": "🕯",
+      "ar": {
+        "t": "الحلولية الكمونية اليهودية",
+        "d": "ثنوية صلبة وسيولة كونية: الإله يحلّ في الشعب أو في الكون كله."
+      },
+      "en": null,
+      "fr": {
+        "t": "L'immanentisme juif",
+        "d": "Doctrine ramenant l'être à un principe latent dans la matière. Forme dualiste rigide (Dieu réside dans le peuple) puis fluide globale (Spinoza, judaïsme humaniste athée)."
+      },
+      "excerpt": "العقيدة اليهودية توحيدية اسماً، حلولية فعلاً، تسودها نزعة غنوصية قوية.",
+      "tr": {
+        "en": null,
+        "fr": "La doctrine juive est nominalement monothéiste, effectivement immanentiste, dominée par une forte tendance gnostique."
+      },
+      "tags": [
+        "ḥulūliyya",
+        "dualité rigide",
+        "Spinoza",
+        "gnose"
+      ],
+      "tags_fr": [
+        "immanentisme",
+        "dualité",
+        "Spinoza",
+        "gnose"
+      ],
+      "tags_en": null
+    },
+    {
+      "id": "ch03",
+      "part": "Partie I — Judaïsme",
+      "icon": "🪞",
+      "ar": {
+        "t": "علمنة اليهودية وصهينتها",
+        "d": "الصهيونية علمنت العقيدة اليهودية من الداخل بترفيع نسب الحلولية."
+      },
+      "en": null,
+      "fr": {
+        "t": "Sécularisation (sionisation) du judaïsme",
+        "d": "Le sionisme a saisi la doctrine de l'intérieur ; orthodoxes initialement antisionistes deviennent l'épine dorsale de la colonisation."
+      },
+      "excerpt": "الصهيونية والإيديولوجيات العلمانية الكونية اخترقت اليهودية واستولت عليها من داخلها.",
+      "tr": {
+        "en": null,
+        "fr": "Le sionisme et les idéologies séculières globales ont pénétré le judaïsme et l'ont saisi de l'intérieur."
+      },
+      "tags": [
+        "sionisation",
+        "orthodoxie",
+        "ḥulūliyya",
+        "Sion littérale"
+      ],
+      "tags_fr": [
+        "sécularisation",
+        "orthodoxie",
+        "immanentisme",
+        "littéralisme"
+      ],
+      "tags_en": null
+    },
+    {
+      "id": "ch04",
+      "part": "Partie I — Communautés juives",
+      "icon": "🏚",
+      "ar": {
+        "t": "الجماعات الوظيفية اليهودية",
+        "d": "اليهود كجماعة وسيطة تستجلب لأداء وظيفة محددة لا تنخرط في النسيج العضوي."
+      },
+      "en": null,
+      "fr": {
+        "t": "Les communautés fonctionnelles juives",
+        "d": "Outil sociologique clé : juifs comme communauté importée fonctionnelle (commerce, fisc, intermédiation) — point de départ structural de la formule sioniste."
+      },
+      "excerpt": "الشعب العضوي المنبوذ غير النافع: حدود مشتركة بين معاداة اليهود والصهيونية.",
+      "tr": {
+        "en": null,
+        "fr": "Le peuple organique excédentaire et inutile : zone commune entre la judéophobie et le sionisme."
+      },
+      "tags": [
+        "jamāʿāt waẓīfiyya",
+        "manbūdh",
+        "fonction",
+        "Volk"
+      ],
+      "tags_fr": [
+        "communauté fonctionnelle",
+        "rejeté",
+        "fonction",
+        "Volk"
+      ],
+      "tags_en": null
+    },
+    {
+      "id": "ch05",
+      "part": "Partie II — Sionisme : définition",
+      "icon": "🧮",
+      "ar": {
+        "t": "الصيغة الصهيونية الأساسية الشاملة",
+        "d": "ثلاثة أركان: شعب فائض، نقل خارج أوربا، دولة وظيفية ترعاها الحضارة الغربية."
+      },
+      "en": null,
+      "fr": {
+        "t": "La formule sioniste essentielle universelle",
+        "d": "Trois axiomes : peuple organique excédentaire à transférer hors d'Europe ; substitution aux autochtones ; État vocationnel garanti par l'Occident."
+      },
+      "excerpt": "الصيغة الشاملة محايدة تماماً: علمانية نفعية مادية شاملة، مهما كانت المقدمات الدينية أو الرومانتيكية.",
+      "tr": {
+        "en": null,
+        "fr": "La formule universelle est entièrement neutre : séculière, utilitaire, intégralement matérialiste, en dépit de tous les préambules."
+      },
+      "tags": [
+        "formule essentielle",
+        "État vocationnel",
+        "iḥlāl",
+        "ijmāʿ"
+      ],
+      "tags_fr": [
+        "formule essentielle",
+        "État vocationnel",
+        "remplacement",
+        "consensus"
+      ],
+      "tags_en": null
+    },
+    {
+      "id": "ch06",
+      "part": "Partie II — Sionisme : définition",
+      "icon": "🤐",
+      "ar": {
+        "t": "العقد الصامت",
+        "d": "تعاقد ضمني بين الحضارة الغربية والمنظمة الصهيونية بشأن يهود العالم."
+      },
+      "en": null,
+      "fr": {
+        "t": "Le pacte silencieux",
+        "d": "Pacte implicite, non écrit, entre l'Occident et l'OSM : vider l'Europe de ses juifs vers un État vocationnel ; en contrepartie, l'Occident le parraine."
+      },
+      "excerpt": "تصلي الكنائس لأجل نجاح هذا المشروع، كما تصلي البِيَع.",
+      "tr": {
+        "en": null,
+        "fr": "Les prières seront dites dans les synagogues pour le succès de ce projet, et les prières seront également dites dans les églises (Herzl)."
+      },
+      "tags": [
+        "ʿaqd ṣāmit",
+        "Charter",
+        "Balfour",
+        "Herzl"
+      ],
+      "tags_fr": [
+        "pacte",
+        "Charte",
+        "Balfour",
+        "Herzl"
+      ],
+      "tags_en": null
+    },
+    {
+      "id": "ch07",
+      "part": "Partie II — Sionisme : définition",
+      "icon": "👤",
+      "ar": {
+        "t": "المادة البشرية المستهدفة",
+        "d": "اليهود كمادة بشرية فائضة مفيدة قابلة للنقل والتوظيف."
+      },
+      "en": null,
+      "fr": {
+        "t": "La matière humaine ciblée",
+        "d": "Réduction de l'humain à matière manipulable : terme employé tant par Herzl que par Eichmann. Les autochtones arabes sont l'autre matière, invisibilisée."
+      },
+      "excerpt": "التعبير ذاته «المادة البشرية» يستعمله مؤسس الصهيونية السياسية والمنظم الأكبر للإبادة.",
+      "tr": {
+        "en": null,
+        "fr": "Le même vocabulaire est employé tant par le fondateur du sionisme politique que par l'organisateur principal de l'extermination."
+      },
+      "tags": [
+        "mādda basharyya",
+        "Herzl",
+        "Eichmann",
+        "iḥlāl"
+      ],
+      "tags_fr": [
+        "matière humaine",
+        "Herzl",
+        "Eichmann",
+        "remplacement"
+      ],
+      "tags_en": null
+    },
+    {
+      "id": "ch08",
+      "part": "Partie II — Courants sionistes",
+      "icon": "🧭",
+      "ar": {
+        "t": "الصهيونيتان: التوطينية والاستيطانية",
+        "d": "لغز الصهيونيتين: واحدة ترسل ولا تذهب، أخرى تذهب وتزرع نفسها."
+      },
+      "en": null,
+      "fr": {
+        "t": "Les deux sionismes : toponymique et installationiste",
+        "d": "Toponymique (Brandeis, Hadassah) : faire en sorte que les juifs s'installent ailleurs. Installationiste (Trumpeldor) : aller, prendre la terre, y vivre."
+      },
+      "excerpt": "التوطيني يفكّر في المشروع؛ الاستيطاني يفكّر في حياته هو.",
+      "tr": {
+        "en": null,
+        "fr": "Le toponymique pense au projet ; l'installationiste pense à sa vie."
+      },
+      "tags": [
+        "tawṭīniyya",
+        "istīṭāniyya",
+        "Trumpeldor",
+        "Brandeis"
+      ],
+      "tags_fr": [
+        "toponymique",
+        "installationiste",
+        "Trumpeldor",
+        "Brandeis"
+      ],
+      "tags_en": null
+    },
+    {
+      "id": "ch09",
+      "part": "Partie II — Courants sionistes",
+      "icon": "🛡",
+      "ar": {
+        "t": "الجدار الحديدي والصهيونية التصحيحية",
+        "d": "جابوتنسكي والأنانية المقدسة: حلولية بلا إله، يحلّ المطلق في القومية."
+      },
+      "en": null,
+      "fr": {
+        "t": "Le mur de fer · Sionisme révisionniste",
+        "d": "Jabotinsky : monisme assumé, immanentisme sans Dieu (Hulūliyya bi-dūn ilāh), peuple-temple, mur de baïonnettes pour imposer le fait accompli."
+      },
+      "excerpt": "الشعب اليهودي هو الهيكل الذي أعبد فيه.",
+      "tr": {
+        "en": null,
+        "fr": "Le peuple juif est le temple dans lequel je pratique mon culte (Jabotinsky)."
+      },
+      "tags": [
+        "jidār ḥadīdī",
+        "Jabotinsky",
+        "wāḥidiyya",
+        "Bétar"
+      ],
+      "tags_fr": [
+        "mur de fer",
+        "Jabotinsky",
+        "monisme",
+        "Bétar"
+      ],
+      "tags_en": null
+    },
+    {
+      "id": "ch10",
+      "part": "Partie II — Sionisme installationiste pratique",
+      "icon": "🚜",
+      "ar": {
+        "t": "الصهيونية العمالية والكيبوتس",
+        "d": "الأدوات التقنية للاستيطان: الهستدروت، صندوق كيرن كييمت، العمل العبري الحصري."
+      },
+      "en": null,
+      "fr": {
+        "t": "Sionisme travailliste · Kibboutz · Histadrout",
+        "d": "Le syndicat, la coopérative et le kibboutz comme outils techniques d'occupation du sol — non comme utopie sociale. Avoda Ivrit (travail hébreu exclusif)."
+      },
+      "excerpt": "ليست تعاونيات الكيبوتس تعبيراً عن طوبى اجتماعية، بل أدوات تقنية لإحلال المادة البشرية على الأرض.",
+      "tr": {
+        "en": null,
+        "fr": "Le kibboutz n'est pas l'expression d'une utopie sociale ; c'est un outil technique d'occupation du sol et de fixation de la matière humaine."
+      },
+      "tags": [
+        "Histadrout",
+        "kibboutz",
+        "ʿamal ʿibrī",
+        "Keren Kayemet"
+      ],
+      "tags_fr": [
+        "Histadrout",
+        "kibboutz",
+        "travail hébreu",
+        "JNF"
+      ],
+      "tags_en": null
+    },
+    {
+      "id": "ch11",
+      "part": "Partie III — Pratiques",
+      "icon": "⚔",
+      "ar": {
+        "t": "العنف الصهيوني والإرهاب الاستيطاني",
+        "d": "الإحلال يستلزم العنف: من حاجاناه إلى دير ياسين إلى صبرا وشاتيلا."
+      },
+      "en": null,
+      "fr": {
+        "t": "Violence et terrorisme sioniste",
+        "d": "Le terrorisme comme outil structurel : Haganah, Irgoun, Lehi, massacres de 1948 (Deir Yassin, Qibya, Kafr Qasem), Sabra et Chatila."
+      },
+      "excerpt": "خلق وقائع جديدة بالقوة العسكرية: هذه هي السياسة التي صار ديّان محورها.",
+      "tr": {
+        "en": null,
+        "fr": "Créer des faits nouveaux par la force militaire : c'est la politique dont Dayan est devenu le pivot."
+      },
+      "tags": [
+        "irhāb",
+        "Deir Yassin",
+        "Sabra",
+        "iḥlāl"
+      ],
+      "tags_fr": [
+        "terrorisme",
+        "Deir Yassin",
+        "Sabra",
+        "remplacement"
+      ],
+      "tags_en": null
+    },
+    {
+      "id": "ch12",
+      "part": "Partie III — État israélien",
+      "icon": "🏛",
+      "ar": {
+        "t": "الدولة الوظيفية وإسرائيل الكبرى",
+        "d": "أرض إسرائيل بحدود توراتية مرنة، اقتصاد تابع، نظام أمني بلا حدود."
+      },
+      "en": null,
+      "fr": {
+        "t": "État vocationnel · Eretz Yisrael · Grand Israël",
+        "d": "Frontières bibliques mouvantes, expansionnisme territorial et hydraulique, démocratie ethnique, militarisation totale, hantise sécuritaire."
+      },
+      "excerpt": "التجمع الصهيوني لا يحوي في داخله مقومات استمراره؛ يستمدّها من قوة عظمى ترعاه.",
+      "tr": {
+        "en": null,
+        "fr": "Le rassemblement sioniste ne contient pas les composants de sa propre survie ; il les puise auprès d'une grande puissance qui le parraine."
+      },
+      "tags": [
+        "dawla waẓīfiyya",
+        "Eretz Yisrael",
+        "amn qawmī",
+        "tawassuʿiyya"
+      ],
+      "tags_fr": [
+        "État vocationnel",
+        "Eretz Yisrael",
+        "sécurité nationale",
+        "expansionnisme"
+      ],
+      "tags_en": null
+    },
+    {
+      "id": "ch13",
+      "part": "Partie IV — Crise",
+      "icon": "🩹",
+      "ar": {
+        "t": "أزمة الصهيونية",
+        "d": "أزمة بنيوية لا ظرفية: من 1882 لا من 1967، تتفاقم بكل عثرة كبرى."
+      },
+      "en": null,
+      "fr": {
+        "t": "Crise du sionisme",
+        "d": "Crise structurelle de la doctrine : qui est juif ? normalisation manquée, crise démographique, intifada. 1967 ne ferme pas le dossier, elle l'ouvre."
+      },
+      "excerpt": "صهيونية بدون روح صهيونية؛ انحسار الصهيونية.",
+      "tr": {
+        "en": null,
+        "fr": "Sionisme sans âme sioniste ; recul du sionisme (formules récurrentes de la presse israélienne)."
+      },
+      "tags": [
+        "azma",
+        "1967",
+        "intifāḍa",
+        "huwiyya"
+      ],
+      "tags_fr": [
+        "crise",
+        "1967",
+        "intifada",
+        "identité"
+      ],
+      "tags_en": null
+    },
+    {
+      "id": "ch14",
+      "part": "Partie IV — Crise",
+      "icon": "🌐",
+      "ar": {
+        "t": "ما بعد الصهيونية والمؤرخون الجدد",
+        "d": "علامات سيميائية: مدلول بلا دالّ، أزمة شرعية داخلية."
+      },
+      "en": null,
+      "fr": {
+        "t": "Post-sionisme · Nouveaux historiens",
+        "d": "Signifiant sans signifié, mondialisation et américanisation du colon, théologie de la mort de Dieu, judaïsme post-moderne."
+      },
+      "excerpt": "إسرائيلي يجب أن يتعامل مع الصهيونية كما يتعامل الأمريكي مع البيوريتانية: كانت وانتهت.",
+      "tr": {
+        "en": null,
+        "fr": "L'Israélien doit se comporter envers le sionisme comme l'Américain envers le puritanisme : il a été et n'est plus (Boaz Evron, A. B. Yehoshua)."
+      },
+      "tags": [
+        "mā baʿd",
+        "muʾarrikhūn judud",
+        "Oslo",
+        "ʿawlama"
+      ],
+      "tags_fr": [
+        "post-sionisme",
+        "nouveaux historiens",
+        "Oslo",
+        "mondialisation"
+      ],
+      "tags_en": null
+    },
+    {
+      "id": "ch15",
+      "part": "Partie V — Issue",
+      "icon": "🕊",
+      "ar": {
+        "t": "السلام الشامل الدائم",
+        "d": "ثلاث سوابق: الصليبيون، الجزائر، جنوب أفريقيا. السلام الجزئي = هدنة مقنّعة."
+      },
+      "en": null,
+      "fr": {
+        "t": "Paix globale et durable · Dé-sionisation",
+        "d": "La paix authentique exige refonte structurelle, non transcription d'un rapport de force. Précédents : Croisés, Algérie, Afrique du Sud — la voie sud-africaine reste la plus exigeante."
+      },
+      "excerpt": "السلام الجزئي مبني على الحرب نفسها؛ هو لاحرب-ولاسِلم.",
+      "tr": {
+        "en": null,
+        "fr": "La paix partielle est en réalité une paix bâtie sur la guerre ; elle se confond, à l'examen, avec un état de ni-guerre-ni-paix."
+      },
+      "tags": [
+        "salām shāmil",
+        "nazʿ ṣibgha",
+        "South Africa",
+        "ʿawda"
+      ],
+      "tags_fr": [
+        "paix globale",
+        "dé-sionisation",
+        "Afrique du Sud",
+        "retour"
+      ],
+      "tags_en": null
+    }
+  ],
+  "ideas": [
+    {
+      "id": "id01",
+      "ar": "النموذج التفسيري",
+      "fr": "Le modèle interprétatif",
+      "en": null,
+      "body_fr": "Massiri ne propose ni théorie générale planante ni description ethnographique plate, mais un modèle interprétatif descendant — une grille capable de relier des phénomènes apparemment disjoints (judéophobie européenne, communauté fonctionnelle, sionisme chrétien, État vocationnel) en une même architecture latente. Le modèle vise les structures cachées sous le discours d'auto-présentation : il n'enregistre pas ce que le sionisme dit de lui-même, mais ce qui rend possible ce qu'il fait. Ce déplacement méthodologique est le seul gain durable de l'œuvre.\n\nLe modèle se déploie en cercles concentriques : à la racine, les structures de la civilisation occidentale moderne (impérialisme, sécularisation, communauté fonctionnelle) ; au-dessus, les transformations du judaïsme comme tassement géologique ; enfin, la formule sioniste essentielle universelle, qui noue les deux et organise leur exécution. Aucun de ces niveaux n'est dérivable des autres, mais tous se rappellent mutuellement.",
+      "body_ar": "النموذج التفسيري ليس نظرية عامة سابحة ولا وصفاً سطحياً، بل بنية تحليلية تنزل في الواقع لتكشف ما تحت الخطاب من بنى صامتة.",
+      "source": "Lots 89-90"
+    },
+    {
+      "id": "id02",
+      "ar": "الحلولية الكمونية",
+      "fr": "Immanentisme (ḥulūliyya)",
+      "en": null,
+      "body_fr": "Concept-pivot. Massiri distingue deux formes : la dualité rigide, où Dieu réside dans un peuple ou une terre à l'exclusion du reste ; et l'immanentisme global fluide, où le sacré se distribue sur toute l'humanité au point de dissoudre la distinction sacré/profane. Le judaïsme historique relève surtout de la première ; la postmodernité juive de la seconde.\n\nLe sionisme est exactement l'opération qui sécularise l'immanentisme dualiste rigide : la source de sainteté n'est plus Dieu, mais l'esprit du peuple ou la terre elle-même. Religieux et séculiers ne diffèrent plus, dès lors, que sur la source nominale de la sainteté, non sur le fait qu'elle s'écoule dans peuple et terre — ce qui rend possible l'alliance opérationnelle entre les deux camps.",
+      "body_ar": "الحلولية تنحلّ في صيغتين: الثنوية الصلبة، والكمون الكوني السائل. الصهيونية علمنت الأولى.",
+      "source": "Lots 49-50"
+    },
+    {
+      "id": "id03",
+      "ar": "الجماعة الوظيفية",
+      "fr": "Communauté fonctionnelle (jamāʿa waẓīfiyya)",
+      "en": null,
+      "body_fr": "Outil sociologique central. Une communauté fonctionnelle est un groupe importé pour remplir une fonction définie (commerce, fisc, intermédiation, peuplement) hors du tissu organique de la société d'accueil. Sa survie est conditionnée par son utilité : « il ne peut être donné à une telle communauté de subsister dans une société que si elle est utile et joue un rôle nécessaire ».\n\nLes juifs européens ont longtemps occupé cette position structurale ; lorsque l'État national centralisé l'a abolie, la question juive a explosé. Le sionisme apporte la réponse : transférer la communauté fonctionnelle hors d'Europe et la ré-installer comme État fonctionnel au service de l'Occident — la même structure, déplacée. C'est la continuité du schème, non sa rupture.",
+      "body_ar": "الجماعة الوظيفية: شعب يستجلب لأداء وظيفة محددة، لا ينخرط في النسيج العضوي للمجتمع المضيف، ويفقد بقاءه بفقدان وظيفته.",
+      "source": "Lots 90, 98"
+    },
+    {
+      "id": "id04",
+      "ar": "الصيغة الصهيونية الأساسية الشاملة",
+      "fr": "La formule sioniste essentielle universelle",
+      "en": null,
+      "body_fr": "Le plus grand commun dénominateur de tous les sionismes : (a) les juifs sont peuple organique excédentaire à transférer hors d'Europe ; (b) ils sont implantés ailleurs en se substituant aux autochtones ; (c) un État vocationnel sert l'Occident en échange de la garantie de pérennité. Aucun discours ne peut être dit sioniste s'il ne contient ces postulats : ils sont la structure générale latente, l'impensé structurant.\n\nLa formule est entièrement neutre — séculière, utilitaire, matérialiste. C'est précisément pour cela qu'elle est inavouable publiquement : elle a dû être judaïsée, c'est-à-dire enrobée rétrospectivement de citations bibliques, de références au Mašîaḥ, à l'exil — pour que ce qui est, à la racine, une opération occidentale d'instrumentalisation puisse être présentée aux juifs eux-mêmes comme leur propre projet.",
+      "body_ar": "الصيغة محايدة تماماً، ولذلك جرت مهودتها لتُقبَل من اليهود أنفسهم.",
+      "source": "Lot 90"
+    },
+    {
+      "id": "id05",
+      "ar": "العقد الصامت",
+      "fr": "Le pacte silencieux",
+      "en": null,
+      "body_fr": "Pacte implicite, non rédigé, entre la civilisation occidentale et l'OSM, qui s'établit non par contrat écrit mais par la convergence des comportements, des décisions et des institutions. Aux termes de ce pacte, le mouvement sioniste vide l'Europe de ses juifs excédentaires en les implantant comme État vocationnel au service de l'Occident ; en contrepartie, l'Occident parraine et garantit le projet, et aide le mouvement à imposer son hégémonie sur les juifs du monde.\n\nHerzl résolut d'un coup les obstacles antérieurs : il forgea l'OSM comme cadre signataire, élabora le discours équivoque qui rendit le pacte simultanément acceptable aux juifs occidentaux intégrés, aux yiddishophones d'Europe orientale et aux chancelleries occidentales. Quand le Kaiser lui demanda de résumer les revendications sionistes, Herzl répondit d'un mot : Charter — Charte, Brevet. La déclaration Balfour est cette Charte explicite ; le pacte, lui, lui survit à toutes les crises.",
+      "body_ar": "العقد ضمني يثبت بسلوك المؤسسات لا بنصّ موقّع.",
+      "source": "Lot 98"
+    },
+    {
+      "id": "id06",
+      "ar": "الصهيونيتان: التوطينية والاستيطانية",
+      "fr": "Les deux sionismes",
+      "en": null,
+      "body_fr": "L'opposition la plus structurante du mouvement, la moins visible pour qui s'en tient à la rhétorique officielle. Le sionisme toponymique (juifs occidentaux intégrés, sionistes non juifs, philanthropie, diplomatie) veut que les juifs soient ailleurs — sans nourrir l'intention d'émigrer lui-même. Le sionisme installationiste (juifs d'Europe orientale, travaillisme, kibboutz) veut être lui-même là.\n\nLes deux acceptent la formule essentielle universelle ; tous deux la judaïsent ; mais ils ne lui demandent pas la même chose. Le toponymique parle aux chancelleries et aux philanthropes ; l'installationiste parle aux pionniers et aux soldats. Le toponymique invoque la tolérance ; l'installationiste invoque l'arme. Après la fondation de l'État, les installationistes s'imposent à l'OSM ; mais les toponymiques continuent d'assurer la couverture extérieure et le financement.",
+      "body_ar": "كلاهما يقبل الصيغة، لكن لا يطلب منها الشيء نفسه.",
+      "source": "Lot 94"
+    },
+    {
+      "id": "id07",
+      "ar": "الجدار الحديدي",
+      "fr": "Le mur de fer",
+      "en": null,
+      "body_fr": "Image rhétorique de Jabotinsky : un mur de baïonnettes juives qui obligerait les Arabes à constater que la présence sioniste est ni évacuable ni renégociable. Ce constat, une fois imposé, ouvrirait à la rigueur la place à un arrangement secondaire — toujours à partir du fait accompli, jamais à partir d'une parité reconnue.\n\nMassiri lit Jabotinsky comme la version explicite de ce que les autres courants pratiquent en silence : le sionisme révisionniste rejette l'équivocité, la lenteur tactique, l'habillage humanitaire. Il assume le monisme (al-wāḥidiyya al-ṣarīḥa). C'est ce qui le rend gênant pour l'OSM, non parce qu'il serait plus à droite — la pensée sioniste est dès l'origine coloniale — mais parce qu'il dit à voix haute ce que l'institution préfère taire.",
+      "body_ar": "الوحدية الصريحة: ما يقوله جابوتنسكي علناً تفعله المؤسسة صامتة.",
+      "source": "Lot 131"
+    },
+    {
+      "id": "id08",
+      "ar": "علمنة جزئية وعلمنة شاملة",
+      "fr": "Sécularisation partielle / globale",
+      "en": null,
+      "body_fr": "Distinction massirienne décisive. La sécularisation partielle est administrative : séparation des institutions religieuses et étatiques, neutralité du droit. La sécularisation globale (shāmila) est ontologique : retrait de toute transcendance hors du monde, réduction de l'humain à la pure immanence — donc à la matière manipulable, déplaçable, instrumentalisable.\n\nLa formule sioniste est l'aboutissement opérationnel de la sécularisation globale : elle sécularise les juifs (matière utile à transférer), le lieu (simple morceau de terre), les habitants autochtones (à transférer ou exterminer), et le moyen même (l'impérialisme). Tout ce qui aurait pu garder une dimension transcendante est ramené à la pure immanence d'un projet matériel. Voir l'Australie pénale, le transfert des excédents européens : la formule sioniste n'est qu'une application particulière d'un schème plus large.",
+      "body_ar": "الصيغة الصهيونية تطبيق خاص لنموذج علمنة شاملة عام.",
+      "source": "Lot 90, Vol I al-ʿAlmāniyya"
+    },
+    {
+      "id": "id09",
+      "ar": "صهيونية الأغيار",
+      "fr": "Sionisme des Gentils",
+      "en": null,
+      "body_fr": "Le sionisme apparaît d'abord chez les non-juifs : protestants anglais à partir du XVIᵉ siècle, romantiques allemands, Bonaparte (premier projet véritable), Lord Shaftesbury (« une terre sans peuple, pour un peuple sans terre »), Oliphant. La première histoire officielle commandée par l'OSM, écrite par Sokolov, consacre son volume le plus volumineux au sionisme parmi les non-juifs.\n\nMassiri en tire une conclusion décisive : le sionisme doit être pensé d'abord comme phénomène intérieur à la civilisation occidentale, et non comme phénomène juif. La distinction conventionnelle entre sionisme juif et sionisme non juif est, à ce niveau, une fausse distinction : un seul mouvement, traversant la civilisation occidentale, et utilisant les juifs comme matière humaine ciblée.",
+      "body_ar": "صهيونية الأغيار سابقة على صهيونية اليهود؛ والصهيونية ظاهرة غربية أولاً.",
+      "source": "Lot 89"
+    },
+    {
+      "id": "id10",
+      "ar": "اليهودية كتركيب جيولوجي",
+      "fr": "Judaïsme comme tassement géologique",
+      "en": null,
+      "body_fr": "Expression forgée par Massiri pour rendre l'absence d'homogénéité du système religieux juif. À la différence de l'islam et du christianisme, où la diversité reste dans un cadre minimal d'unité, le judaïsme superpose des strates indépendantes (Vieux Testament composite, Talmud, Cabale, hassidisme, judaïsme rabbinique, réformé, reconstructionniste, sionisme) qui coexistent sans s'intégrer.\n\nCauses : tardiveté de la consignation, errance des Hébreux, absence d'autorité centrale, prééminence de la Loi orale. Conséquences : contradictions aiguës (un dieu, plusieurs dieux, idoles dans le même corpus) ; haute capacité d'absorption (synagogues homosexuelles, rabbins athées) ; chaque strate trouve sa propre légitimation dans le tassement. Le sionisme y a trouvé la sienne.",
+      "body_ar": "كل فرقة تجد في التركيب الجيولوجي تبريرها؛ ولذلك وجدت الصهيونية تبريرها فيه.",
+      "source": "Lot 49"
+    },
+    {
+      "id": "id11",
+      "ar": "أزمة الصهيونية البنيوية",
+      "fr": "Crise structurelle du sionisme",
+      "en": null,
+      "body_fr": "La crise n'est ni économique ni conjoncturelle, mais doctrinale et structurelle. Elle commence en 1882 avec la colonisation, non en 1967 ; 1948 ne la résout pas, l'aggrave en latence ; 1967, paradoxalement, la rend visible en ouvrant les questions qui resteront béantes (territoires, habitants, identité juive d'un État qui gouverne des non-juifs en masse).\n\nQuatre échecs internes se conjuguent : échec à définir le juif, échec du retour, échec de la normalisation, échec de la fin de l'exil. Le contrat social sioniste s'effrite. Mais — et c'est lourd — un consensus subsiste : le refus de reconnaître les Palestiniens. Tant que ce noyau dur tient, la crise peut se prolonger très loin sans entraîner l'effondrement, d'autant que huit milliards de dollars d'aide américaine annuelle pour quatre millions d'habitants tiennent lieu de support extérieur permanent.",
+      "body_ar": "الأزمة بنيوية: تبدأ مع الاستيطان لا مع 1967.",
+      "source": "Lot 257"
+    },
+    {
+      "id": "id12",
+      "ar": "السلام الشامل والسلام الجزئي",
+      "fr": "Paix globale vs paix partielle",
+      "en": null,
+      "body_fr": "La paix globale et durable est durable parce que globale, et globale parce qu'elle reformule la structure même des relations entre les belligérants. La paix partielle, à l'inverse, est la simple transcription juridique d'un rapport de force militaire : l'une des parties ne la signe que par soumission, attend le renversement, et la guerre reprend dès qu'il est possible. Versailles 1919 en est le cas d'école : vingt ans plus tard, le ressort se redéployait.\n\nMassiri distingue trois dispositifs voisins : le cessez-le-feu (suspension humanitaire honnête), la trêve (suspension stratégique honnête), la paix partielle (qui ment sur sa nature). Aucun ne saurait tenir lieu de paix authentique au Moyen-Orient. La paix authentique exige une dé-sionisation : l'arrachement, à l'État, de son caractère installationiste-de-remplacement. Trois précédents : Croisés (par la force), Algérie (révolution), Afrique du Sud (transformation interne). Massiri privilégie la troisième.",
+      "body_ar": "السلام الجزئي = حرب مكتوبة؛ السلام الشامل = إعادة هيكلة بنيوية.",
+      "source": "Lot 285"
+    },
+    {
+      "id": "id13",
+      "ar": "الإحلال والاستيطان",
+      "fr": "Colonialisme installationiste de remplacement",
+      "en": null,
+      "body_fr": "Le sionisme n'est pas seulement coloniale au sens classique ; il est installationiste de remplacement (istīṭānī iḥlālī) : il n'occupe pas pour exploiter, il vient pour remplacer. Le remplacement exige d'abord l'invisibilisation des autochtones (silence du pacte sur les Arabes), puis, lorsqu'ils se manifestent, leur élimination ou leur expulsion.\n\nLes parallèles : colonies pénales en Australie, peuplement nord-américain. La spécificité sioniste tient au pacte silencieux qui en organise la couverture occidentale et à la judaïsation rétroactive qui en organise la mobilisation des juifs du monde. Mais la structure remplaciste est partagée : c'est ce qui rend la résolution possible — comme en Afrique du Sud, par démantèlement du caractère remplaciste, non par expulsion des colons.",
+      "body_ar": "ليس الاستعمار الصهيوني للاستغلال، بل للإحلال.",
+      "source": "Lots 90, 285"
+    },
+    {
+      "id": "id14",
+      "ar": "ما بعد الصهيونية",
+      "fr": "Post-sionisme",
+      "en": null,
+      "body_fr": "Le terme apparaît dans les années 1990 avec les nouveaux historiens israéliens (Morris, Pappé, Shlaim) qui démontent les mythes fondateurs : exode palestinien volontaire, défense d'un David contre Goliath, occasions de paix manquées par les Arabes. La crise rhétorique s'exprime dans la prolifération de termes : sionisme économique, technique, de luxe, de navette, sionisme sans âme sioniste — autant d'aveux d'un signifiant qui ne sait plus à quel signifié s'arrimer.\n\nMassiri met en garde contre l'illusion que la crise rhétorique vaudrait crise effective. Boaz Evron parle du sionisme comme du puritanisme américain : « il a été et n'est plus ». Mais le rassemblement vit, et tant que le noyau dur — refus du Palestinien — tient, le post-sionisme reste un signal interne, non une transformation.",
+      "body_ar": "كثرة المصطلحات اعتراف بأزمة المعنى، لا حلّ لها.",
+      "source": "Lots 270-277"
+    },
+    {
+      "id": "id15",
+      "ar": "اليهود الشرقيون والديمقراطية الإثنية",
+      "fr": "Juifs orientaux · Démocratie ethnique",
+      "en": null,
+      "body_fr": "L'État sioniste se présente comme démocratie tout en étant structurellement ethnique : la citoyenneté pleine est réservée aux juifs (loi du retour), les Arabes restés en 1948 sont citoyens de seconde classe, ceux des territoires occupés ne sont rien. À l'intérieur du camp juif, la fracture ashkénaze/oriental rejoue : les juifs orientaux (originaires des pays arabes) ont longtemps occupé une position subalterne dans l'État ashkénaze travailliste — ce qui a alimenté leur basculement vers la droite et le religieux.\n\nLa démocratie ethnique n'est pas une démocratie incomplète qui se compléterait avec le temps ; elle est une catégorie politique distincte, intrinsèquement liée à la structure remplaciste. Toute démocratisation pleine impliquerait l'effondrement du caractère ethno-installationiste — donc la dé-sionisation.",
+      "body_ar": "الديمقراطية الإثنية ليست ديمقراطية ناقصة، بل صنف سياسي خاص.",
+      "source": "Lots 211-214, 265"
+    },
+    {
+      "id": "id16",
+      "ar": "الترانسفير والإبادة",
+      "fr": "Transfert et extermination",
+      "en": null,
+      "body_fr": "Le transfert (Transfer) n'est pas une dérive accidentelle du projet sioniste ; il en est la condition logique. La formule essentielle exige le remplacement, le remplacement exige l'élimination ou l'expulsion des autochtones. Les massacres de 1947-1948 (Deir Yassin, et al.) ne sont pas des excès, mais l'exécution opérationnelle de la formule. Après 1948, le terrorisme se poursuit (Qibya 1953, Kafr Qasem 1956, Sabra et Chatila 1982).\n\nMassiri rapproche le vocabulaire de Herzl (« matière humaine ») de celui d'Eichmann : la commune horizon — réduction de l'humain à la matière — qui rend la formule sioniste pensable est précisément la condition épistémique qui rend la solution finale pensable. Ce n'est pas dire que sionisme et nazisme s'équivalent ; c'est dire qu'ils partagent la racine occidentale moderne de la communauté fonctionnelle excédentaire.",
+      "body_ar": "الترانسفير شرط منطقي للصيغة، لا انحراف عرضي.",
+      "source": "Lots 200-202, 217"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "q01",
+      "ar": "العقيدة اليهودية توحيدية اسماً، حلولية فعلاً.",
+      "fr": "La doctrine juive est nominalement monothéiste, effectivement immanentiste.",
+      "en": null,
+      "theme": "judaïsme",
+      "color": "gold",
+      "src": "Lot 049"
+    },
+    {
+      "id": "q02",
+      "ar": "اليهودية تشبه التركيب الجيولوجي من طبقات مستقلة.",
+      "fr": "Le judaïsme ressemble à un tassement géologique de strates indépendantes.",
+      "en": null,
+      "theme": "judaïsme",
+      "color": "teal",
+      "src": "Lot 049"
+    },
+    {
+      "id": "q03",
+      "ar": "كل فرقة تجد في التركيب الجيولوجي تبريرها.",
+      "fr": "Chaque secte trouve dans le tassement géologique sa justification.",
+      "en": null,
+      "theme": "judaïsme",
+      "color": "purple",
+      "src": "Lot 049"
+    },
+    {
+      "id": "q04",
+      "ar": "النصّ الكتابي يعلو في الأنظمة التوحيدية؛ والشفهي يعلو في الأنظمة الحلولية.",
+      "fr": "L'écrit l'emporte dans les systèmes monothéistes ; l'oral l'emporte dans les systèmes immanentistes.",
+      "en": null,
+      "theme": "doctrine",
+      "color": "blue",
+      "src": "Lot 049"
+    },
+    {
+      "id": "q05",
+      "ar": "تخدم الصهيونية اليهود والمسيحيين معاً.",
+      "fr": "Le sionisme sert les juifs et les chrétiens (Max Nordau).",
+      "en": null,
+      "theme": "pacte",
+      "color": "rose",
+      "src": "Lot 098"
+    },
+    {
+      "id": "q06",
+      "ar": "ستقام الصلوات في المعابد لنجاح هذا المشروع، كما ستقام الصلوات في الكنائس.",
+      "fr": "Les prières seront dites dans les synagogues pour le succès de ce projet, et les prières seront également dites dans les églises (Herzl).",
+      "en": null,
+      "theme": "pacte",
+      "color": "gold",
+      "src": "Lot 098"
+    },
+    {
+      "id": "q07",
+      "ar": "أرض بلا شعب لشعب بلا أرض.",
+      "fr": "Une terre sans peuple, pour un peuple sans terre (Shaftesbury).",
+      "en": "A land without a people for a people without a land.",
+      "theme": "formule",
+      "color": "orange",
+      "src": "Lot 089"
+    },
+    {
+      "id": "q08",
+      "ar": "الصهيونية تعتبر القومية والعرق والشعب شيئاً واحداً.",
+      "fr": "Le sionisme considère la nation, la race et le peuple comme une seule chose (Birnbaum, 1897).",
+      "en": null,
+      "theme": "définition",
+      "color": "rose",
+      "src": "Lot 089"
+    },
+    {
+      "id": "q09",
+      "ar": "الشعب اليهودي هو الهيكل الذي أعبد فيه.",
+      "fr": "Le peuple juif est le temple dans lequel je pratique mon culte (Jabotinsky).",
+      "en": null,
+      "theme": "monisme",
+      "color": "purple",
+      "src": "Lot 131"
+    },
+    {
+      "id": "q10",
+      "ar": "يجب على اليهودي أن يتعلّم الذبح من الأغيار.",
+      "fr": "Le juif doit apprendre à égorger auprès des Goyim (Jabotinsky).",
+      "en": null,
+      "theme": "violence",
+      "color": "rose",
+      "src": "Lot 131"
+    },
+    {
+      "id": "q11",
+      "ar": "الجدار الحديدي من الحراب اليهودية.",
+      "fr": "Le mur de fer des baïonnettes juives (Jabotinsky).",
+      "en": "The iron wall of Jewish bayonets.",
+      "theme": "violence",
+      "color": "blue",
+      "src": "Lot 131"
+    },
+    {
+      "id": "q12",
+      "ar": "الصهيونية كانت ولم تعد.",
+      "fr": "Le sionisme a été et n'est plus (Boaz Evron, A. B. Yehoshua).",
+      "en": null,
+      "theme": "crise",
+      "color": "teal",
+      "src": "Lot 089"
+    },
+    {
+      "id": "q13",
+      "ar": "صهيونية بدون روح صهيونية.",
+      "fr": "Sionisme sans âme sioniste.",
+      "en": null,
+      "theme": "crise",
+      "color": "gold",
+      "src": "Lot 257"
+    },
+    {
+      "id": "q14",
+      "ar": "انحسار الصهيونية.",
+      "fr": "Recul du sionisme.",
+      "en": null,
+      "theme": "crise",
+      "color": "purple",
+      "src": "Lot 257"
+    },
+    {
+      "id": "q15",
+      "ar": "الصيغة الشاملة محايدة تماماً: علمانية نفعية مادية.",
+      "fr": "La formule universelle est entièrement neutre : séculière, utilitaire, matérialiste.",
+      "en": null,
+      "theme": "formule",
+      "color": "orange",
+      "src": "Lot 090"
+    },
+    {
+      "id": "q16",
+      "ar": "هي صيغة خروجية تصفوية.",
+      "fr": "C'est une formule de sortie et de liquidation.",
+      "en": null,
+      "theme": "formule",
+      "color": "rose",
+      "src": "Lot 090"
+    },
+    {
+      "id": "q17",
+      "ar": "الشعب العضوي المنبوذ غير النافع.",
+      "fr": "Le peuple organique excédentaire et inutile.",
+      "en": null,
+      "theme": "communauté fonctionnelle",
+      "color": "blue",
+      "src": "Lot 090"
+    },
+    {
+      "id": "q18",
+      "ar": "الترانسفير مشروع غربي قبل أن يكون يهودياً.",
+      "fr": "Le Transfer est un projet occidental avant d'être juif.",
+      "en": null,
+      "theme": "remplacement",
+      "color": "teal",
+      "src": "Lot 090"
+    },
+    {
+      "id": "q19",
+      "ar": "العقد الصامت يثبت بالسلوك لا بالنصّ.",
+      "fr": "Le pacte silencieux s'établit par la conduite, non par le texte.",
+      "en": null,
+      "theme": "pacte",
+      "color": "gold",
+      "src": "Lot 098"
+    },
+    {
+      "id": "q20",
+      "ar": "مشروع الترخيص (الـ Charter).",
+      "fr": "Le Charter — Charte, Brevet, Acte de société (réponse de Herzl au Kaiser).",
+      "en": null,
+      "theme": "pacte",
+      "color": "purple",
+      "src": "Lot 098"
+    },
+    {
+      "id": "q21",
+      "ar": "التوطيني يفكّر في المشروع، والاستيطاني يفكّر في حياته.",
+      "fr": "Le toponymique pense au projet ; l'installationiste pense à sa vie.",
+      "en": null,
+      "theme": "courants",
+      "color": "orange",
+      "src": "Lot 094"
+    },
+    {
+      "id": "q22",
+      "ar": "ليس الكيبوتس طوبى اجتماعية بل أداة استيطان.",
+      "fr": "Le kibboutz n'est pas une utopie sociale ; c'est un outil d'occupation du sol.",
+      "en": null,
+      "theme": "installation",
+      "color": "grn",
+      "src": "Lot 231"
+    },
+    {
+      "id": "q23",
+      "ar": "خلق وقائع جديدة بالقوة.",
+      "fr": "Créer des faits nouveaux par la force (Dayan, après Jabotinsky).",
+      "en": "Create new facts on the ground.",
+      "theme": "violence",
+      "color": "rose",
+      "src": "Lot 131"
+    },
+    {
+      "id": "q24",
+      "ar": "السلام الجزئي مبني على الحرب.",
+      "fr": "La paix partielle est bâtie sur la guerre.",
+      "en": null,
+      "theme": "paix",
+      "color": "blue",
+      "src": "Lot 285"
+    },
+    {
+      "id": "q25",
+      "ar": "لا حرب ولا سِلم.",
+      "fr": "Ni guerre ni paix.",
+      "en": "Neither war nor peace.",
+      "theme": "paix",
+      "color": "teal",
+      "src": "Lot 285"
+    },
+    {
+      "id": "q26",
+      "ar": "السلام لا يكون دائماً إلا إذا كان شاملاً.",
+      "fr": "La paix n'est durable que dans la mesure où elle est globale.",
+      "en": null,
+      "theme": "paix",
+      "color": "gold",
+      "src": "Lot 285"
+    },
+    {
+      "id": "q27",
+      "ar": "نزع الصبغة الصهيونية عن الدولة.",
+      "fr": "L'arrachement, à l'État, de son caractère sioniste — la dé-sionisation.",
+      "en": null,
+      "theme": "issue",
+      "color": "grn",
+      "src": "Lot 285"
+    },
+    {
+      "id": "q28",
+      "ar": "الأزمة بنيوية، تبدأ مع 1882، لا مع 1967.",
+      "fr": "La crise est structurelle ; elle commence en 1882, non en 1967.",
+      "en": null,
+      "theme": "crise",
+      "color": "purple",
+      "src": "Lot 257"
+    },
+    {
+      "id": "q29",
+      "ar": "ثمانية مليارات دولار لأربعة ملايين نسمة.",
+      "fr": "Huit milliards de dollars pour quatre millions d'habitants : l'une des sociétés les plus aidées au monde.",
+      "en": null,
+      "theme": "État vocationnel",
+      "color": "orange",
+      "src": "Lot 257"
+    },
+    {
+      "id": "q30",
+      "ar": "الصهيونية ظاهرة غربية أولاً، يهودية ثانياً.",
+      "fr": "Le sionisme est d'abord un phénomène occidental, juif en second.",
+      "en": null,
+      "theme": "Gentils",
+      "color": "rose",
+      "src": "Lot 089"
+    },
+    {
+      "id": "q31",
+      "ar": "الصهيونية الجغرافية: المصطلح العربي الوحيد المستقلّ (الخالدي 1899).",
+      "fr": "Le sionisme géographique : seul terme arabe indépendant pour décrire le phénomène (Yusuf Ḍiyāʾ al-Khālidī).",
+      "en": null,
+      "theme": "définition",
+      "color": "teal",
+      "src": "Lot 089"
+    },
+    {
+      "id": "q32",
+      "ar": "الصهيونية والصهيونية المضادة لليهود وجهان لعملة واحدة.",
+      "fr": "Sionisme et antisémitisme : deux faces d'une même monnaie — la communauté fonctionnelle excédentaire.",
+      "en": null,
+      "theme": "racine",
+      "color": "blue",
+      "src": "Lot 090"
+    }
+  ],
+  "glossary": [
+    {
+      "ar": "النموذج التفسيري",
+      "translit": "al-namūdhaj al-tafsīrī",
+      "fr": "Modèle interprétatif",
+      "def_fr": "Grille analytique descendante visant les structures latentes, par opposition à la description plate du discours d'auto-présentation.",
+      "def_ar": "بنية تحليلية تنزل في الواقع لتكشف ما تحت الخطاب من بنى صامتة."
+    },
+    {
+      "ar": "التركيب الجيولوجي التراكمي",
+      "translit": "al-tarkīb al-jiyūlūjī al-tarākumī",
+      "fr": "Tassement géologique cumulatif",
+      "def_fr": "Métaphore-clé : le judaïsme comme empilement de strates indépendantes (monothéiste, immanentiste, talmudique, cabalistique, sioniste) qui coexistent sans s'unifier.",
+      "def_ar": "طبقات متراكمة مستقلة لا تنحلّ إلى وحدة."
+    },
+    {
+      "ar": "الحلولية الكمونية",
+      "translit": "al-ḥulūliyya al-kumūniyya",
+      "fr": "Immanentisme",
+      "def_fr": "Doctrine ramenant le monde à un principe latent dans la matière. Forme dualiste rigide ou globale fluide.",
+      "def_ar": "حلول الإله أو المطلق في المادة، إما في صيغة ثنوية صلبة أو كمون كوني سائل."
+    },
+    {
+      "ar": "الجماعة الوظيفية",
+      "translit": "jamāʿa waẓīfiyya",
+      "fr": "Communauté fonctionnelle",
+      "def_fr": "Groupe importé pour remplir une fonction (commerce, fisc, peuplement) hors du tissu organique de la société d'accueil ; survie conditionnée par l'utilité.",
+      "def_ar": "شعب يستجلب لأداء وظيفة، يفقد بقاءه بفقدان وظيفته."
+    },
+    {
+      "ar": "الصيغة الصهيونية الأساسية الشاملة",
+      "translit": "al-ṣīgha al-ṣahyūniyya al-asāsiyya al-shāmila",
+      "fr": "Formule sioniste essentielle universelle",
+      "def_fr": "Trois axiomes latents : peuple excédentaire à transférer, substitution aux autochtones, État vocationnel garanti par l'Occident.",
+      "def_ar": "ثلاثة أركان: شعب فائض، إحلال، دولة وظيفية."
+    },
+    {
+      "ar": "الصيغة المهودة",
+      "translit": "al-ṣīgha al-muhawwada",
+      "fr": "Formule judaïsée",
+      "def_fr": "Enrobage rétrospectif de la formule occidentale par des justifications bibliques et talmudiques pour la rendre acceptable aux juifs.",
+      "def_ar": "تغليف الصيغة الغربية بمقدمات يهودية لتقبلها المادة البشرية."
+    },
+    {
+      "ar": "العقد الصامت",
+      "translit": "al-ʿaqd al-ṣāmit",
+      "fr": "Pacte silencieux",
+      "def_fr": "Pacte implicite entre l'Occident et l'OSM, établi par convergence des conduites et institutions, non par texte écrit.",
+      "def_ar": "تعاقد ضمني يثبت بالسلوك لا بالنصّ."
+    },
+    {
+      "ar": "المادة البشرية المستهدفة",
+      "translit": "al-mādda al-bashariyya al-mustahdafa",
+      "fr": "Matière humaine ciblée",
+      "def_fr": "Réduction de l'humain à matière manipulable. Vocable employé tant par Herzl que par Eichmann.",
+      "def_ar": "اختزال الإنسان إلى مادة قابلة للنقل والتوظيف."
+    },
+    {
+      "ar": "الدولة الوظيفية",
+      "translit": "al-dawla al-waẓīfiyya",
+      "fr": "État vocationnel/fonctionnel",
+      "def_fr": "État dont la raison d'être est le service d'une fonction extérieure (intérêts impériaux occidentaux), en échange d'une garantie de pérennité.",
+      "def_ar": "دولة تخدم وظيفة خارجية وتُرعى مقابل ذلك."
+    },
+    {
+      "ar": "الاستيطان الإحلالي",
+      "translit": "al-istīṭān al-iḥlālī",
+      "fr": "Colonialisme installationiste de remplacement",
+      "def_fr": "Forme coloniale visant non l'exploitation mais la substitution aux autochtones — par expulsion ou extermination.",
+      "def_ar": "احتلال يستلزم إحلال السكان لا استغلالهم."
+    },
+    {
+      "ar": "التوطينية",
+      "translit": "al-tawṭīniyya",
+      "fr": "Sionisme toponymique",
+      "def_fr": "Courant qui œuvre à installer les juifs ailleurs sans émigrer soi-même : philanthropes, diplomates, juifs occidentaux intégrés.",
+      "def_ar": "تيار يسعى لتوطين اليهود دون أن يهاجر هو."
+    },
+    {
+      "ar": "الاستيطانية",
+      "translit": "al-istīṭāniyya",
+      "fr": "Sionisme installationiste",
+      "def_fr": "Courant qui s'installe lui-même : juifs d'Europe orientale, travaillisme, kibboutz.",
+      "def_ar": "تيار يهاجر فعلاً ويستوطن الأرض."
+    },
+    {
+      "ar": "الجدار الحديدي",
+      "translit": "al-jidār al-ḥadīdī",
+      "fr": "Le mur de fer",
+      "def_fr": "Image jabotinskyenne : mur de baïonnettes imposant aux Arabes le fait accompli sioniste comme préalable à tout arrangement.",
+      "def_ar": "صورة جابوتنسكية للقوة كشرط مسبق."
+    },
+    {
+      "ar": "الوحدية الصريحة",
+      "translit": "al-wāḥidiyya al-ṣarīḥa",
+      "fr": "Monisme assumé",
+      "def_fr": "Position de Jabotinsky qui rejette tous les habillages tactiques (libéral, ouvriériste, religieux) au profit de l'énoncé frontal du programme sioniste.",
+      "def_ar": "موقف جابوتنسكي الرافض لكل تورية تكتيكية."
+    },
+    {
+      "ar": "العمل العبري",
+      "translit": "al-ʿamal al-ʿibrī (Avoda Ivrit)",
+      "fr": "Travail hébreu (exclusif)",
+      "def_fr": "Doctrine travailliste excluant la main-d'œuvre arabe des entreprises sionistes — outil technique d'installation.",
+      "def_ar": "إقصاء العمالة العربية من المشاريع الاستيطانية."
+    },
+    {
+      "ar": "أرض إسرائيل",
+      "translit": "Eretz Yisrael",
+      "fr": "Terre d'Israël",
+      "def_fr": "Concept aux frontières bibliques mouvantes servant de cadre à l'expansionnisme territorial.",
+      "def_ar": "حدود توراتية مرنة تخدم التوسعية."
+    },
+    {
+      "ar": "أزمة الصهيونية",
+      "translit": "azmat al-ṣahyūniyya",
+      "fr": "Crise du sionisme",
+      "def_fr": "Crise structurelle de la doctrine, non conjoncturelle : qui est juif, normalisation, démographie, retour, identité — le contrat social s'effrite, le noyau (refus du Palestinien) tient.",
+      "def_ar": "أزمة بنيوية في عقيدة الدولة، لا أزمة ظرفية."
+    },
+    {
+      "ar": "نزع الصبغة الصهيونية",
+      "translit": "nazʿ al-ṣibgha al-ṣahyūniyya",
+      "fr": "Dé-sionisation",
+      "def_fr": "Arrachement, à l'État, de son caractère installationiste-de-remplacement — condition d'une paix globale et durable.",
+      "def_ar": "تجريد الدولة من طابعها الاستيطاني الإحلالي."
+    },
+    {
+      "ar": "السلام الشامل الدائم",
+      "translit": "al-salām al-shāmil al-dāʾim",
+      "fr": "Paix globale et durable",
+      "def_fr": "Paix authentique : refonte structurelle des relations, justice mutuelle, intérêt partagé. Distincte du cessez-le-feu, de la trêve et de la paix partielle.",
+      "def_ar": "سلام يعيد هيكلة العلاقات، لا يدوّن موازين القوة."
+    },
+    {
+      "ar": "ما بعد الصهيونية",
+      "translit": "mā baʿd al-ṣahyūniyya",
+      "fr": "Post-sionisme",
+      "def_fr": "Courant des années 1990 (nouveaux historiens, post-modernes) démontant les mythes fondateurs ; symptôme de crise rhétorique, non transformation effective.",
+      "def_ar": "تيار التسعينيات الذي يفكّك الأساطير المؤسِّسة."
+    },
+    {
+      "ar": "العلمنة الجزئية والشاملة",
+      "translit": "al-ʿalmana al-juzʾiyya wa-al-shāmila",
+      "fr": "Sécularisation partielle / globale",
+      "def_fr": "Distinction massirienne : la première sépare institutions ; la seconde retire toute transcendance et réduit l'humain à la pure immanence.",
+      "def_ar": "الجزئية مؤسسية، والشاملة وجودية تحيل الإنسان مادة."
+    },
+    {
+      "ar": "الديمقراطية الإثنية",
+      "translit": "al-dīmuqrāṭiyya al-ʿirqiyya",
+      "fr": "Démocratie ethnique",
+      "def_fr": "Régime réservant la citoyenneté pleine à un groupe ethnique défini ; catégorie politique distincte, non démocratie incomplète.",
+      "def_ar": "صنف سياسي خاص لا ديمقراطية ناقصة."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1840",
+      "ar": "تبلور المفهوم الصهيوني في الخطاب السياسي الغربي.",
+      "fr": "Cristallisation du concept de sionisme dans le discours politique occidental.",
+      "en": null
+    },
+    {
+      "year": "1882",
+      "ar": "بداية الاستعمار الاستيطاني في فلسطين — بداية الأزمة البنيوية.",
+      "fr": "Début de la colonisation installationiste — début de la crise structurelle.",
+      "en": null
+    },
+    {
+      "year": "1890",
+      "ar": "ناثان بيرنبوم يصكّ مصطلح «الصهيونية».",
+      "fr": "Nathan Birnbaum forge le terme « sionisme ».",
+      "en": null
+    },
+    {
+      "year": "1897",
+      "ar": "المؤتمر الصهيوني الأول (بازل) — هرتسل والمنظمة الصهيونية العالمية.",
+      "fr": "Iᵉʳ Congrès sioniste (Bâle) — Herzl, OSM, formulation publique du programme.",
+      "en": null
+    },
+    {
+      "year": "1917",
+      "ar": "وعد بلفور — الصيغة الأساسية تتحول إلى صيغة شاملة.",
+      "fr": "Déclaration Balfour — la formule essentielle devient universelle.",
+      "en": null
+    },
+    {
+      "year": "1923",
+      "ar": "جابوتنسكي يؤسس بيتار — الصهيونية التصحيحية.",
+      "fr": "Jabotinsky fonde Bétar — sionisme révisionniste, mur de fer.",
+      "en": null
+    },
+    {
+      "year": "1948",
+      "ar": "تأسيس الدولة — مجزرة دير ياسين — التهجير الجماعي.",
+      "fr": "Fondation de l'État — massacre de Deir Yassin — Nakba.",
+      "en": null
+    },
+    {
+      "year": "1967",
+      "ar": "حرب يونيو — الأزمة البنيوية تصبح ظاهرة.",
+      "fr": "Guerre de juin — la crise structurelle devient visible.",
+      "en": null
+    },
+    {
+      "year": "1973",
+      "ar": "حرب أكتوبر — تحطّم هالة المنعة.",
+      "fr": "Guerre d'octobre — la mythe de l'invincibilité se brise.",
+      "en": null
+    },
+    {
+      "year": "1982",
+      "ar": "اجتياح لبنان — مجزرة صبرا وشاتيلا.",
+      "fr": "Invasion du Liban — massacre de Sabra et Chatila.",
+      "en": null
+    },
+    {
+      "year": "1987",
+      "ar": "الانتفاضة الأولى — عودة الفلسطيني كمسألة مركزية.",
+      "fr": "Première Intifada — retour du Palestinien comme question centrale.",
+      "en": null
+    },
+    {
+      "year": "1993-1995",
+      "ar": "أوسلو — السلام الجزئي بدلاً من الشامل.",
+      "fr": "Oslo — paix partielle en lieu et place de paix globale.",
+      "en": null
+    }
+  ]
+}

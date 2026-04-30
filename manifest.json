@@ -1,0 +1,12 @@
+{
+  "name": "Ghazali's Sermons — خطب الغزالي",
+  "short_name": "خطب الغزالي",
+  "description": "Interactive trilingual app based on Sheikh Mohammed al-Ghazali's sermons on faith and life",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00695C",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": []
+}

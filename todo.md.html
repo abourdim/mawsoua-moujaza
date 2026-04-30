@@ -1,0 +1,113 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Todo — Corpus al-Massīrī</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1a1410;--paper:#faf6ee;--rule:#c9b890;--accent:#7a4a2a;--mute:#8a7a5a}
+*{box-sizing:border-box}
+body{font-family:'Cormorant Garamond',Georgia,serif;background:var(--paper);color:var(--ink);max-width:840px;margin:3rem auto;padding:0 1.5rem;line-height:1.55;font-size:18px}
+h1{font-weight:700;font-size:2rem;margin-bottom:.2rem;border-bottom:2px solid var(--rule);padding-bottom:.5rem}
+h1 .ar{font-family:'Amiri',serif;font-weight:400;font-size:1.4rem;margin-left:.6rem;color:var(--accent)}
+.sub{color:var(--accent);font-style:italic;margin-bottom:2rem}
+h2{font-weight:600;font-size:1.35rem;margin-top:2.4rem;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:.25rem}
+h3{font-weight:600;font-size:1.05rem;margin-top:1.6rem;color:var(--mute);text-transform:uppercase;letter-spacing:.06em}
+ul{padding-left:1.4rem}
+li{margin:.55rem 0}
+li code{background:#efe7d2;padding:.05rem .35rem;border-radius:3px;font-size:.92em}
+.done{color:var(--accent);text-decoration:line-through;opacity:.65}
+.priority{background:#f3e9d1;border-left:3px solid var(--accent);padding:.85rem 1rem;margin:1rem 0;border-radius:4px}
+.priority strong{color:var(--accent)}
+.tag{display:inline-block;font-size:.72rem;padding:.05rem .45rem;border:1px solid var(--rule);border-radius:10px;color:var(--accent);margin-left:.4rem;letter-spacing:.05em;text-transform:uppercase;vertical-align:middle}
+.tag.todo{border-color:#a44;color:#a44}
+.tag.ext{border-color:#3a6;color:#3a6}
+.ar{font-family:'Amiri',serif;direction:rtl;color:var(--ink)}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--rule);font-size:.85rem;color:var(--accent);text-align:center}
+</style></head><body>
+
+<h1>Todo<span class="ar">قائمة المهام</span></h1>
+<div class="sub">Inventaire complet du corpus al-Massīrī (source : <em>archive.org/details/Almissiri_Abdel_wahab</em>) — extrait dans <code>55-rihlati-fikriyah/sources.html</code>.</div>
+
+<h2>Ouvrages clôturés <span class="tag">7 titres</span></h2>
+<ul>
+<li class="done"><strong>55 — <em>Riḥlatī al-fikriyya</em></strong> <span class="ar">رحلتي الفكرية</span> · Mon voyage intellectuel (autobiographie). PDF français complet 723 pp + app trilingue.</li>
+<li class="done"><strong>56 — <em>al-Mawsūʿa al-mūjaza</em></strong> <span class="ar">الموسوعة الموجزة</span> · Encyclopédie abrégée (Vol. I + Vol. II). <code>TAG-V0.289-VOL2-COMPLETE-8020</code>.</li>
+<li class="done"><strong>57 — <em>Man huwa al-yahūdī ?</em></strong> <span class="ar">من هو اليهودي ؟</span> · Qui est le juif ? <code>v0.5 (CLÔTURE)</code>.</li>
+<li class="done"><strong>58 — <em>al-Ḥadātha wa-mā baʿd al-ḥadātha</em></strong> <span class="ar">الحداثة وما بعد الحداثة</span> · Modernité et postmodernité. <code>v1.0 (CLÔTURE)</code>.</li>
+<li class="done"><strong>59 — <em>al-Jamāʿāt al-waẓīfiyya al-yahūdiyya</em></strong> <span class="ar">الجماعات الوظيفية اليهودية</span> · Les groupes juifs fonctionnels. <code>v1.0 (CLÔTURE)</code>.</li>
+<li class="done"><strong>60 — <em>Difāʿ ʿan al-insān</em></strong> <span class="ar">دفاع عن الإنسان</span> · Défense de l'humain (50 lots, 12017 l.). <code>TAG-V1.0-DIFAA-CLOTURE</code>.</li>
+<li class="done"><strong>61 — <em>al-Falsafa al-māddiyya wa-tafkīk al-insān</em></strong> <span class="ar">الفلسفة المادية وتفكيك الإنسان</span> · Philosophie matérialiste et déconstruction de l'humain (27 lots, 6633 l.). <code>TAG-V1.0-FALSAFA-CLOTURE</code>.</li>
+</ul>
+
+<h2>En cours</h2>
+<div class="priority">
+<strong>62 — al-ʿAlmāniyya al-juzʾiyya wa-l-ʿalmāniyya al-šāmila</strong> <span class="ar">العلمانية الجزئية والعلمانية الشاملة</span> — <em>Sécularisme partiel et sécularisme total (Vol I + Vol II)</em>.<br>
+État au 2026-04-28 : <strong>30/~107 lots livrés</strong> (TAG-V0.30-ALMANIYYA-LOT30), couvre lignes 1-7200 du Vol I (10 511 l). Vol II (15 088 l) en attente.<br>
+Sources : <code>ia download BBib-Alex-11803</code> (Vol I) + <code>BBib-Alex-11804</code> (Vol II) → <code>djvuxml_to_text.py</code> → <code>source/source_vol1.txt</code> + <code>source_vol2.txt</code>.<br>
+Repo : <code>62-almaniyya/</code> (git initialisé, 6 commits + 6 tags).<br>
+<strong>Reprise :</strong> batch 7 (lots 31-35, lignes 7200-8400 du Vol I).
+</div>
+
+<h2>Ouvrages restant à traduire <span class="tag todo">≈20 titres</span></h2>
+
+<h3>Encyclopédies</h3>
+<ul>
+<li><span class="ar">موسوعة اليهود واليهودية والصهيونية — نموذج تفسيري جديد</span> · Encyclopédie complète (8 vol.) — <em>nouveau modèle interprétatif</em>. Volume monumental, à étager après les essais courts.</li>
+</ul>
+
+<h3>Sionisme &amp; conflit</h3>
+<ul>
+<li><span class="ar">الأيديولوجية الصهيونية</span> · L'idéologie sioniste (2 parties).</li>
+<li><span class="ar">الصهيونية والحضارة الغربية الحديثة</span> · Le sionisme et la civilisation occidentale moderne.</li>
+<li><span class="ar">الصهيونية والعنف</span> · Sionisme et violence.</li>
+<li><span class="ar">الصهيونية والنازية ونهاية التاريخ</span> · Sionisme, nazisme et fin de l'histoire.</li>
+<li><span class="ar">تاريخ الفكر الصهيوني</span> · Histoire de la pensée sioniste.</li>
+<li><span class="ar">أسرار العقل الصهيوني</span> · Les secrets de l'esprit sioniste.</li>
+<li><span class="ar">من هم اليهود وما هي اليهودية</span> · Qui sont les juifs et qu'est-ce que le judaïsme ?</li>
+<li><span class="ar">الانتفاضة الفلسطينية والأزمة الصهيونية</span> · L'Intifada palestinienne et la crise sioniste.</li>
+<li><span class="ar">من الانتفاضة إلى حرب التحرير الفلسطينية</span> · De l'Intifada à la guerre de libération palestinienne.</li>
+<li><span class="ar">مقدمة لدراسة الصراع العربي الإسرائيلي</span> · Introduction à l'étude du conflit arabo-israélien.</li>
+</ul>
+
+<h3>Épistémologie &amp; biais</h3>
+<ul>
+<li><span class="ar">إشكالية التحيز</span> · La problématique du biais (7 vol. : méthodologie, littérature, arts, sciences, psychologie, pensée occidentale).</li>
+<li><span class="ar">دراسات معرفية في الحداثة الغربية</span> · Études épistémologiques sur la modernité occidentale.</li>
+<li><span class="ar">دفاع عن الإنسان</span> · Défense de l'humain.</li>
+<li><span class="ar">الفلسفة المادية وتفكيك الإنسان</span> · La philosophie matérialiste et la déconstruction de l'humain.</li>
+</ul>
+
+<h3>Modernité &amp; sécularisme</h3>
+<ul>
+<li><strong>↑ recommandé</strong> <span class="ar">العلمانية الجزئية والعلمانية الشاملة</span> · Sécularisme partiel et total.</li>
+<li><span class="ar">الثقافة والمنهج</span> · Culture et méthode.</li>
+<li><span class="ar">الفردوس الأرضي</span> · Le paradis terrestre (études sur la civilisation américaine).</li>
+<li><span class="ar">اللغة والمجاز</span> · Langue et métaphore.</li>
+</ul>
+
+<h3>Autobiographie &amp; divers</h3>
+<ul>
+<li><span class="ar">المسيري في عيون أصدقائه ونقاده</span> · al-Massīrī vu par ses amis et critiques.</li>
+<li><span class="ar">الهوية والحركية الإسلامية</span> · Identité et dynamique islamique (dialogues).</li>
+<li><span class="ar">أوراق فلسفية</span> · Papiers philosophiques.</li>
+<li><span class="ar">أوراق الملاح القديم</span> · Les papiers du vieux marin.</li>
+</ul>
+
+<h2>Pistes paratextuelles (sur le corpus déjà clôturé)</h2>
+<ul>
+<li><strong>Repasse de cohérence Vol. II</strong> <span class="tag">qualité</span> — uniformiser gabarit + glossaire massirien ; corriger lot 276 (Georgia/820 px).</li>
+<li><strong>PDF unique du Vol. II</strong> <span class="tag">livrable</span> — concaténer les 289 PDF en un seul volume (TOC cliquable, pagination continue) via <code>pypdf</code>.</li>
+<li><strong>Reprise du Vol. I</strong> <span class="tag">harmonisation</span> — aligner sur la maturité du Vol. II.</li>
+<li><strong>Index thématique transversal</strong> <span class="tag">érudition</span> — concepts massiriens avec renvois croisés au-delà de l'index alphabétique.</li>
+<li><strong>Site statique de lecture</strong> <span class="tag">diffusion</span> — recherche plein texte, navigation latérale, ancres par lot.</li>
+<li><strong>Glossaire encyclopédique autonome</strong> <span class="tag">référence</span> — fusion des glossaires de fin de lot.</li>
+<li><strong>Préface du traducteur</strong> <span class="tag">paratexte</span> — note méthodologique (translittération, conventions, fidélité 100&nbsp;%).</li>
+<li><strong>Audit OCR rétroactif</strong> <span class="tag">errata</span> — coquilles arabes signalées (ex. l. 6500, l. 6864).</li>
+</ul>
+
+<h2>Pipeline éprouvée</h2>
+<ul>
+<li><strong>Bootstrap d'un nouvel ouvrage :</strong> archive.org → <code>references/source-original.pdf</code> → OCR (Tesseract / archive.org chocr) → <code>source/source.txt</code> → README + CHANGELOG + scripts → repo <code>NN-slug/</code>.</li>
+<li><strong>Traduction en lots :</strong> <code>Read source par chunks 60-90 lignes → 5 agents general-purpose en parallèle (run_in_background) → Chrome --headless --print-to-pdf → git add + commit + tag TAG-V0.NNN-LOTNNN + push origin main + push --tags → afplay Glass.aiff</code>.</li>
+<li><strong>Cadence type :</strong> 5 lots/batch, gabarit Cormorant Garamond + Amiri (palette ink/paper/rule/accent), footer <code>Source ~ ligne XXXX / TOTAL</code>.</li>
+</ul>
+
+<footer>todo.md.html · Corpus al-Massīrī · maj 2026-04-28</footer>
+</body></html>
